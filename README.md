@@ -32,9 +32,10 @@ source('run_analysis.R', echo=TRUE)
 
 
 The script run_Analysis.R
-1.reads the training and test set measurement data, binds the training and testing subjects and activity numbers to the respective data sets and merges them first to combine a complete data set of test and training Data. [using cbind and rbind]
 
-2.extracts only the measurements on the mean and standard deviation for each measurement[using grep command on the column names]
+1.Reads the training and test set measurement data, binds the training and testing subjects and activity numbers to the respective data sets and merges them first to combine a complete data set of test and training Data. [using cbind and rbind]
+
+2.Extracts only the measurements on the mean and standard deviation for each measurement[using grep command on the column names]
 
 3.Replaces activity numbers with descriptive activity names to name the activities in the data set[by adjusting factor levels]
 
@@ -60,8 +61,11 @@ If running from R console, the tidy data will appear in the console
 
 ### References:
 Descriptive Variable name thread: https://class.coursera.org/getdata-009/forum/thread?thread_id=179
+
 Tidy Data paper:http://vita.had.co.nz/papers/tidy-data.pdf
 http://stackoverflow.com/questions/1407449/for-each-group-summarise-means-for-all-variables-in-dataframe-ddply-split
+
 David's Project FAQ: https://class.coursera.org/getdata-009/forum/thread?thread_id=58
+
 Tidy data and the assignment:https://class.coursera.org/getdata-009/forum/thread?thread_id=192
       
