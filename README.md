@@ -54,10 +54,16 @@ UCI HAR Dataset needs to be in the current working directory
 
 ### Tidy data Output
 
+The run_Analysis.R script will create a file called tidy.txt in your working directory, as a result of the analysis. The script will read this txt file using read.table and display the tidy data on your screen. 
 
 If running from RStudio, data should available in the "tidy_data" tab. If "htm" not found message comes up, please  use the "Show in new Window Icon" in the tab ribbon and the tidy data will show up in the new window. 
 
 If running from R console, the tidy data will appear in the console
+
+To read the file into R, from the project submission directly, please do the following in R console or R Studio after downloading the txt file tidy.txt from the submission. 
+
+ tidy_data<-read.table("tidy.txt",header=TRUE)
+ View(tidy_data)
 
 ### References:
 Descriptive Variable name thread: https://class.coursera.org/getdata-009/forum/thread?thread_id=179
