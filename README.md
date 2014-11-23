@@ -60,9 +60,10 @@ If running from RStudio, data should available in the "tidy_data" tab. If "htm" 
 
 If running from R console, the tidy data will appear in the console
 
-To read the file into R, from the project submission directly, please do the following in R console or R Studio after downloading the txt file tidy.txt from the submission. 
+To read the file into R, from the txt file attached in the project submission directly, please do the following in R console or R Studio after downloading the txt file tidy.txt from the submission. 
 
  tidy_data<-read.table("tidy.txt",header=TRUE)
+ 
  View(tidy_data)
 
 ### References:
