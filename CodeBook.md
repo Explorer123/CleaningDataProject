@@ -3,7 +3,7 @@
 
 The original data set [see License section below]  consists of accelerometer and the gyroscope measurements from the samsung galaxy phone that each of the 30 subjects were carrying while thery were performing each of the 6 activities of Walking, Sitting, Walking_upstairs, Laying, Standing, Walking_downstairs  There are 561 columns in the original data set, which are measurements and  functions applied on these measurements  such as Mean, Standard Deviation, Max, Min etc. 
 
-The tidy data which is described in detail, below consists of only the Mean and Standard Deviation of the accelerometer and Gyroscope measurements of   the 30 subjects from the original data set, each of whom performed 6 activities Walking, Sitting, Walking_upstairs, Laying, Standing, Walking_downstairs (30*6 =180 rows) .The data set has the average for each Standard deviation/Mean measurement, by activity and subject resulting in a data set having 180 rows and 81 columns
+The data used for this analyis, which is described in detail, below consists of only the Mean and Standard Deviation of the accelerometer and Gyroscope measurements of   the 30 subjects from the original data set, each of whom performed 6 activities Walking, Sitting, Walking_upstairs, Laying, Standing, Walking_downstairs (30*6 =180 rows) .The final tidy data set has the average for each Standard deviation/Mean measurement, by activity and subject resulting in a data set having 180 rows and 81 columns
 
 Following transformations were done to the variables from the original data set
 
