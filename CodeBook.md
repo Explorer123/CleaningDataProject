@@ -3,14 +3,15 @@
 
 The original data set [see License section below]  consists of accelerometer and the gyroscope measurements from the samsung galaxy phone that each of the 30 subjects were carrying while thery were performing each of the 6 activities of Walking, Sitting, Walking_upstairs, Laying, Standing, Walking_downstairs  There are 561 columns in the original data set, which are measurements and  functions applied on these measurements  such as Mean, Standard Deviation, Max, Min etc. 
 
-The data used for this analyis, which is described in detail, below consists of only the Mean and Standard Deviation of the accelerometer and Gyroscope measurements of   the 30 subjects from the original data set, each of whom performed 6 activities Walking, Sitting, Walking_upstairs, Laying, Standing, Walking_downstairs (30*6 =180 rows) .The final tidy data set has the average for each Standard deviation/Mean measurement, by activity and subject resulting in a data set having 180 rows and 81 columns
+The data used for this analyis, which is described in detail, below consists of only the Mean and Standard Deviation of the accelerometer and Gyroscope measurements of   the 30 subjects from the original data set, each of whom performed 6 activities Walking, Sitting, Walking_upstairs, Laying, Standing, Walking_downstairs[81 columns].
 
-Following transformations were done to the variables from the original data set
+Following transformations were done to the variable names from the original data set
 
 -Replaced mean, std with Mean, Std respectively
 
 -Removed () and -  
 
+The final tidy data set has is obtained by calculating the the average for each Standard deviation/Mean measurement, by activity and subject resulting in a data set having 180 rows and 81 columns
 
 The format of the measurements in the tidy data is as follows and is in camel case i.e combination of upper and lower case. Each component of the measurement and the aggregate function (Mean, Std) starts with uppercase
 
@@ -18,11 +19,11 @@ The format of the measurements in the tidy data is as follows and is in camel ca
 
 -Acceleration measurement BodyAcc or GravityAcc  from Accelerometer or Body acceleration component from the gyroscope i.e. t/fBodyAcc,t/fGravityAcc,t/fBodyGyro 
 
--body linear acceleration or angular velocity  jerk signals for the body acceleration components .e.g. t/fBodyAccJerk,t/fBodyGyroJerk
+-Body linear acceleration or angular velocity  jerk signals for the body acceleration components .e.g. t/fBodyAccJerk,t/fBodyGyroJerk
 
--maginitude of the signals measured in Eucledian form e.g. t/fBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag. 
+-Maginitude of the signals measured in Eucledian form e.g. t/fBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag. 
 
--Mean or Std 
+- followed by Mean or Std and finally
 
 -XYZ directional components as applicable
 
@@ -30,7 +31,7 @@ The variables in the data set are as follows: A few of them have been described 
 
 1 activity                     	Activity label i.e. Walking, Sitting, Walking_upstairs, Laying, Standing, Walking_downstairs
 
-2	subject                      	1 to 30
+2	subject                       	1 to 30
 
 3	tBodyAccMeanX                 	Mean of the time domain Body Acceleration signal along the X direction
 
